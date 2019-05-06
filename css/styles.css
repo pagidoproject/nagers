@@ -1,16 +1,5 @@
-/*
-Theme Name: Sky Touch 
-Author URI: http://webthemez.com/
-Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
-License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
-*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900,500);
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', 'sans-serif', arial;
-}
 
 body {
     font-size: 14px;
@@ -190,15 +179,13 @@ a {
     color: #1371AF;
 }
 
-.logo {
-    font-size: 2.2em;
+.navbar .logo {
+    font-size: 2.2rem;
     text-shadow: none;
+    margin-top: -11px;
 }
 
-    .logo:hover {
-        color: #5A5A5A;
-    }
-
+   
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
     color: #2593DB;
     box-shadow: none;
@@ -211,8 +198,8 @@ a {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #858585;
-    font-size: 1.2em;
+    color: #636e72;
+    font-size: 1.5em;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -313,7 +300,7 @@ a {
     box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
     max-height: 600px;
     height: 600px;
-    background: #0d1836 url("../images/img4.jpg") left bottom no-repeat;
+    background: #0d1836 url("../images/img.jpg") left bottom no-repeat;
     background-size: 100% 100%;
     background-size: cover;
 }
@@ -371,56 +358,6 @@ a {
 .pdingBtm30 {
     padding-bottom: 30px;
 }
-/* Services
-    -------------------------------------------------*/
-.media-heading {
-    color: #fff;
-}
-/* Team
-    ---------------------------------------------------*/
-.team-member {
-    margin-bottom: 15px;
-}
-
-    .team-member .designation {
-        margin-top: 5px;
-        display: block;
-        font-size: 13px;
-    }
-
-    .team-member .member-img img {
-        max-width: 250px;
-        margin: 0 auto;
-        /*border:2px #D3D3D3 solid;*/
-    }
-
-    .team-member h3 {
-        font-size: 22px;
-        line-height: 32px;
-        margin: 10px 0 0 15px;
-        /*text-align:center;*/
-    }
-
-    .team-member .pos {
-        display: block;
-        color: #fff;
-        margin: 0 0 0 15px;
-        /*text-align:center;*/
-    }
-
-    .team-member .contact a {
-        padding: 0 8px;
-    }
-
-.descrition {
-    min-height: 90px;
-    /*text-align: center;*/
-    /*border-bottom: 1px solid #dadde2;*/
-    padding: 5px 15px;
-}
-
-
-/* ------- */
 
 .isotopeWrapper article {
     margin-bottom: 30px;
@@ -640,14 +577,15 @@ footer {
     footer ul li {
         list-style: none;
     }
-
+/*contact*/
 .contact ul li {
     margin-bottom: 10px;
 }
 
-    .contact ul li i {
-        margin-right: 15px;
+    .mrgn30 ul li i {
+        margin-left: -38px;
     }
+
 
 .addBg {
     background: #fff !important;
@@ -778,9 +716,10 @@ footer {
         }
 
         .da-slide p {
-            width: 65%;
+            width: 120%;
             top: 65px;
             height: 50px;
+            color: #fff;
         }
 
     .page-section h1 {
@@ -854,3 +793,104 @@ footer {
         margin: 0 0 23px 5px;
     }
 }
+
+/*footer*/
+
+#myFooter {
+    background-color: #373a48;
+    color:white;
+}
+
+#myFooter .footer-copyright{
+    background-color: #383737;
+    padding-top:3px;
+    padding-bottom:3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p{
+    margin:10px;
+    color: #ccc;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+    color:#d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+    text-decoration: none;
+    color:white;
+}
+
+#myFooter .myCols{
+    text-align: center;
+}
+
+#myFooter .social-networks{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .social-networks i{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+    text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+    color:#fff;
+}
+
+#myFooter .google:hover{
+    color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+    #myFooter {
+        text-align: center;
+    }
+}
+
+.content{
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+
+#myFooter{
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+
+
+
+  
